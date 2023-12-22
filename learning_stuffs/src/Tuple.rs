@@ -5,4 +5,5 @@ fn main() {
 	println!("The value of x in tuple is : {}",x);
 	println!("The value of y in tuple is : {}",y);
 	println!("The value of z in tuple is : {}",z);
+	println!("All the values of the tuple is  : {:?}",tup);
 }
