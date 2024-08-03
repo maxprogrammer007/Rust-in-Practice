@@ -65,4 +65,26 @@ fn main() {
     println!("quotient: {}", quotient);
     println!("remainder: {}", remainder);
 
+    // Boolean types
+
+    let t = true; // implicit type
+    let f: bool = false; // explicit type
+
+    println!("t: {}", t);
+    println!("f: {}", f);
+
+    // if
+    if t {
+        println!("t is true");
+    } else {
+        println!("t is false");
+    }
+
+    let not_t = !t;
+    let and = t && f;
+    let or = t || f;
+
+    println!("not_t: {}", not_t);
+    println!("and: {}", and);
+    println!("or: {}", or);
 }
