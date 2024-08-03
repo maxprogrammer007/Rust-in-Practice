@@ -1,0 +1,1 @@
+C:\Users\abhi\Documents\GitHub\Rust-in-Practice\Learnings_from_live_streams\rust_data_types\target\debug\rust_data_types.exe: C:\Users\abhi\Documents\GitHub\Rust-in-Practice\Learnings_from_live_streams\rust_data_types\src\main.rs
