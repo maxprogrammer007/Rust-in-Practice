@@ -18,7 +18,7 @@ fn main() {
     let c: u16 = 65535; // 0 to 65535
     let d: i16 = -32768; // -32768 to 32767
     let e: u32 = 4294967295; // 0 to 4294967295
-    let f: i32 = -2147483648; // -2147483648 to 2147483647
+    let _f: i32 = -2147483648; // -2147483648 to 2147483647
     let _g: u64 = 18446744073709551615; // 0 to 18446744073709551615
     let _h: i64 = -9223372036854775808; // -9223372036854775808 to 9223372036854775807
     let _i: u128 = 340282366920938463463374607431768211455; // 0 to 340282366920938463463374607431768211455
@@ -42,5 +42,27 @@ fn main() {
     println!("octal: {}", octal);
     println!("binary: {}", binary);
     println!("byte: {}", byte);
+
+
+    // Floating Points
+
+    let x = 2.0; // f64
+    let y: f32 = 3.0; // f32
+
+    println!("x: {}", x);
+    println!("y: {}", y);
+
+    // numeric operations
+    let sum = x + y;
+    let difference = x - y;
+    let product = x * y;
+    let quotient = x / y;
+    let remainder = x % y;
+
+    println!("sum: {}", sum);
+    println!("difference: {}", difference);
+    println!("product: {}", product);
+    println!("quotient: {}", quotient);
+    println!("remainder: {}", remainder);
 
 }
