@@ -87,4 +87,18 @@ fn main() {
     println!("not_t: {}", not_t);
     println!("and: {}", and);
     println!("or: {}", or);
+
+    // Character type
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';
+
+    println!("c: {}", c);
+    println!("z: {}", z);
+    println!("heart_eyed_cat: {}", heart_eyed_cat);
+
+    // iterate over characters in a string
+    for c in "hello".chars() {
+        println!("{}", c);
+    }
 }
