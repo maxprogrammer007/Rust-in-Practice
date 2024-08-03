@@ -1,0 +1,1 @@
+C:\Users\abhi\Documents\GitHub\Rust-in-Practice\Learnings_from_live_streams\rust_variables\target\debug\rust_variables.exe: C:\Users\abhi\Documents\GitHub\Rust-in-Practice\Learnings_from_live_streams\rust_variables\src\main.rs
