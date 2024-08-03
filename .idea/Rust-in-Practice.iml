@@ -2,7 +2,9 @@
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/learning_stuffs/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/learning_stuffs/target" />
     </content>
     <orderEntry type="inheritedJdk" />
