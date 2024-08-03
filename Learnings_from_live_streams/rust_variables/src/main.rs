@@ -10,5 +10,9 @@ fn main() {
 
     let mut y = x;
     y = y + 4;
-    println!("The value of y is : {} ", y)
+    println!("The value of y is : {} ", y);
+
+    // const variables
+    const MAX_POINTS: u32 = 100_000; // _ can be used to make the number more readable
+    println!("The value of MAX_POINTS is : {}", MAX_POINTS);
 }
