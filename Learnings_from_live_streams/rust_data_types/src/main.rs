@@ -146,4 +146,35 @@ fn main() {
     for element in arr.iter() {
         println!("{}", element);
     }
+
+    // Custom data types
+    // Struct
+    struct User {
+        username: String,
+        email: String,
+        sign_in_count: u64,
+        active: bool,
+    }
+
+    let user1 = User {
+        email: String::from("someone@gmail.com"),
+        username: String::from("someone"),
+        active: true,
+        sign_in_count: 1,
+    };
+
+    println!("user1: {}", user1.username);
+
+    // Accessing struct fields
+    println!("user1 email: {}", user1.email);
+    println!("user1 sign_in_count: {}", user1.sign_in_count);
+    println!("user1 active: {}", user1.active);
+
+    // Update struct fields
+    let _user2 = User {
+        email: String::from("okay@gmail.com"),
+        username: String::from("okay"),
+        active: true,
+        sign_in_count: 1,
+    };
 }
