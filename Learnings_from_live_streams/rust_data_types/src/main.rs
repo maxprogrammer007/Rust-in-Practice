@@ -112,4 +112,12 @@ fn main() {
     for i in 0..3 {
         println!("{}: {}", i, tup.0);
     }
+
+    let five_hundred = tup.0;
+    let six_point_four = tup.1;
+    let one = tup.2;
+
+    println!("five_hundred: {}", five_hundred);
+    println!("six_point_four: {}", six_point_four);
+    println!(" one : {}", one);
 }
