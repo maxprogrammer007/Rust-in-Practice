@@ -5,9 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/learning_stuffs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_data_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_functions/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/learning_stuffs/target" />
       <excludeFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_data_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Learnings_from_live_streams/rust_functions/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
