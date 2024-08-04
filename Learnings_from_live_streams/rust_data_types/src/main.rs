@@ -1,4 +1,9 @@
 // data types in rust
+
+enum IpAddrKind {
+    V4,
+    V6,
+}
 fn main() {
     // scalar types
         // - Integer
@@ -177,4 +182,30 @@ fn main() {
         active: true,
         sign_in_count: 1,
     };
+
+    // Enum
+    let _home = IpAddrKind::V4;
+    let _loopback = IpAddrKind::V6;
+
+    // Enum with data
+    enum IpAddr {
+        V4(String),
+        V6(String),
+    }
+
+    let _home = IpAddr::V4(String::from("12344568"));
+    let _loopback = IpAddr::V6(String::from("12344568"));
+
+    // Enum with different types of data
+
+    enum IpAddr2 {
+        V4(u8, u8, u8, u8),
+        V6(String),
+    }
+
+    let _home = IpAddr2::V4(127, 0, 0, 1);
+    let _loopback = IpAddr2::V6(String::from("::1"));
+
+
+
 }
