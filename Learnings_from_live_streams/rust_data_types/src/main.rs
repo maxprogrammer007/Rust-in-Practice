@@ -120,4 +120,30 @@ fn main() {
     println!("five_hundred: {}", five_hundred);
     println!("six_point_four: {}", six_point_four);
     println!(" one : {}", one);
+
+    // Arrays
+
+    let arr = [1,2,3,4,5,6];
+    let first = arr[0];
+    let second = arr[1];
+    let third = arr[2];
+    let fourth = arr[3];
+    let fifth = arr[4];
+    let sixth = arr[5];
+
+    println!("first: {}", first);
+    println!("second: {}", second);
+    println!("third: {}", third);
+    println!("fourth: {}", fourth);
+    println!("fifth: {}", fifth);
+    println!("sixth: {}", sixth);
+
+    // Accessing by index
+    for i in 0..6 {
+        println!("{}: {}", i, arr[i]);
+    }
+
+    for element in arr.iter() {
+        println!("{}", element);
+    }
 }
