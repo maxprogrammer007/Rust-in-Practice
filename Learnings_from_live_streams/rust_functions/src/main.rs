@@ -3,8 +3,13 @@
  fn main() {
     println!("Hello, world!");
     another_function();
+    another_function1(5);
 }
 
 fn another_function() {
     println!("Another function.");
+}
+
+fn another_function1(number: i32) {
+    println!("The value of number is : {}", number);
 }
