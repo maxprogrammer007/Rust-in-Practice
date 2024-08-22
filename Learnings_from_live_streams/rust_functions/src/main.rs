@@ -13,3 +13,21 @@ fn another_function() {
 fn another_function1(number: i32) {
     println!("The value of number is : {}", number);
 }
+
+// statements and expressions
+// Statements are instructions that perform some action and do not return a value. Expressions evaluate to a resulting value. Let's see an example of both:
+
+fn statements_and_expressions() {
+    let y = 6; // statement
+    let x = { // block is an expression
+        let y = 3;
+        y + 1 // expression
+    };
+    println!("The value of x is: {}", x);
+}
+
+// Function with return value
+
+fn five() -> i32 {
+    5
+}
