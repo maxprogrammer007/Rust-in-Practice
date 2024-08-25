@@ -27,4 +27,23 @@ let number = 3 ;
             println!("{} is less than 10", num);
         }
     }
+    // if conditions
+    let a = 10;
+    let b = 20;
+    let c = 20;
+
+    // using && to check if 'a" is less than 'b' and 'b' is equal to 'c'
+
+    if a > b && b > c{
+        println!("a is greater than b and b is greater than c");
+    } else {
+        println!("condition is false");
+    }
+
+    // using || to check if 'a' is less than 'b' or 'b' is equal to 'c'
+    if a > b || b > c {
+        println!("atleast one condition is true");
+    } else {
+        println!("both conditions are false");
+    }
 }
