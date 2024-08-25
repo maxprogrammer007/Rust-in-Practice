@@ -4,6 +4,10 @@
     println!("Hello, world!");
     another_function();
     another_function1(5);
+    statements_and_expressions();
+    let x = five();
+    println!("The value of x is: {}", x);
+
 }
 
 fn another_function() {
@@ -26,8 +30,10 @@ fn statements_and_expressions() {
     println!("The value of x is: {}", x);
 }
 
+
 // Function with return value
 
 fn five() -> i32 {
-    5
+    5 + 1 // expression
+
 }
