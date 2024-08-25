@@ -11,6 +11,7 @@
     println!("The sum of 5 and 10 is: {}", result);
     let k = sum_diff(23,98);
     println!("The sum and difference of the given numbmer is {} and {}",k.0,k.1);
+     println!("The sum and difference of the given number is {:?}",k); //{:?} is used to print the tuple
  }
 
 fn sum(num1 :i32,num2:i32) ->i32{
