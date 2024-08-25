@@ -9,7 +9,9 @@
     println!("The value of x is: {}", x);
     let result = sum(5, 10);
     println!("The sum of 5 and 10 is: {}", result);
-}
+    let k = sum_diff(23,98);
+    println!("The sum and difference of the given numbmer is {} and {}",k.0,k.1);
+ }
 
 fn sum(num1 :i32,num2:i32) ->i32{
     num1+num2
@@ -40,4 +42,10 @@ fn statements_and_expressions() {
 fn five() -> i32 {
     5 + 1 // expression
 
+}
+
+//multiple return values
+
+fn sum_diff(num1: i32, num2: i32)->(i32,i32){
+    (num1+num2,num1-num2)
 }
