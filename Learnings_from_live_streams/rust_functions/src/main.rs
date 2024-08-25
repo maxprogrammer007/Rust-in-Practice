@@ -7,9 +7,13 @@
     statements_and_expressions();
     let x = five();
     println!("The value of x is: {}", x);
-
+    let result = sum(5, 10);
+    println!("The sum of 5 and 10 is: {}", result);
 }
 
+fn sum(num1 :i32,num2:i32) ->i32{
+    num1+num2
+}
 fn another_function() {
     println!("Another function.");
 }
